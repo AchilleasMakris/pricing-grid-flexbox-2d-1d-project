@@ -1,0 +1,141 @@
+.pricing {
+    margin-top: 5rem;
+}
+
+.pricing__title {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.pricing__box {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.pricing__box--0margin {
+    margin: 0;
+}
+
+.pricing__box__title {
+    font-size: 1.125rem;
+}
+
+.pricing__box__description1 {
+    margin-bottom: 2.5rem;
+    font-size: 0.75rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.pricing__box__description2 {
+    font-size: 0.75rem;
+    color: #888;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+    font-family: inherit;
+}
+
+.pricing__btn {
+    font-size: 0.75rem;
+}
+
+
+/*xs screens */
+
+@media (min-width: 475px) {
+    .pricing__title {
+        font-size: 0.875rem;
+    }
+    .pricing__box__title {
+        font-size: 1.25rem;
+    }
+    .pricing__box__description1,
+    .pricing__box__description2 {
+        font-size: 0.875rem;
+    }
+    .pricing__btn {
+        font-size: 0.875rem;
+    }
+}
+
+
+/*sm screens */
+
+
+/* @media (min-width: 640px) {} */
+
+
+/*md screens */
+
+
+/* @media (min-width: 768px) {} */
+
+
+/*lg screens */
+
+@media (min-width: 1024px) {
+    .pricing__grid-container {
+        display: grid;
+        grid-template-areas: 'css css css jav' 'rea rea nex nex';
+        gap: 1rem;
+    }
+    .pricing__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2.5rem;
+        margin: 0;
+    }
+    .pricing__box--css {
+        grid-area: css;
+    }
+    .pricing__box--js {
+        grid-area: jav;
+    }
+    .pricing__box--react {
+        grid-area: rea;
+    }
+    .pricing__box--next {
+        grid-area: nex;
+    }
+    .pricing__box__description1 {
+        margin-bottom: 0;
+    }
+}
+
+
+/*xl screens */
+
+@media (min-width: 1280px) {
+    .pricing__title {
+        font-size: 1rem;
+    }
+    .pricing__box__title {
+        font-size: 1.5rem;
+    }
+    .pricing__box__description1,
+    .pricing__box__description2 {
+        font-size: 1rem;
+    }
+    .pricing__btn {
+        font-size: 1rem;
+    }
+}
+
+
+/*2xl screens */
+
+
+/* @media (min-width: 1536px) {} */
