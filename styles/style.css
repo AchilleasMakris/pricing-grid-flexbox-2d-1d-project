@@ -13,3 +13,25 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+img,
+picture,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
