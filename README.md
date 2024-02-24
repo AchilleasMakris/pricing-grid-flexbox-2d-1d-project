@@ -1,5 +1,6 @@
-2D / 1D / Flexbox / Grid Pricing Card Project
-Introduction
+**`2D / 1D / Flexbox / Grid Pricing Card Project`**
+
+## Introduction
 
 In this project, you will create a pricing section with grid and flexbox. 
 REQUIREMENT
@@ -8,7 +9,7 @@ Creating a pricing list and style it with grid and flexbox.
 
 
 
-Technologies
+## Technologies
 
 This project is created with:
 
@@ -18,7 +19,7 @@ This project is created with:
     Command Line
     Visual Studio Code
 
-Sources
+## Sources
 
 With the resources available and studies from:
 
@@ -29,15 +30,15 @@ With the resources available and studies from:
     Stack overflow
     Google research
 
-Inspiration
+## Inspiration
 
  Slaying The Dragon Course Project : https://www.slayingthedragon.io/dashboard/css/introduction
 
-Status
+## Status
 
 Project is completed as required.
 
-Author/Contact
+## Author/Contact
 
     M. Achilleas - Initial work
     Website Preview: https://pricing-grid-flexbox-2d-1d-project.vercel.app/
