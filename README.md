@@ -3,7 +3,8 @@
 ## Introduction
 
 In this project, you will create a pricing section with grid and flexbox. 
-REQUIREMENT
+
+## REQUIREMENT
 
 Creating a pricing list and style it with grid and flexbox.
 
